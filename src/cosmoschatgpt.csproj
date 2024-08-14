@@ -7,13 +7,18 @@
     <UserSecretsId>faca8719-db54-4203-bb6e-cabe9c31df22</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Azure.Identity" Version="1.11.4" />
+    <PackageReference Include="Azure.Identity" Version="1.12.0" />
     <PackageReference Include="Humanizer" Version="2.*" />
-    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.41.0-preview.0" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.42.0" />
     <PackageReference Include="Microsoft.ML.Tokenizers" Version="0.22.0-preview.24179.1" />
     <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
-    <PackageReference Include="Microsoft.SemanticKernel" Version="1.12.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.17.1" />
     <PackageReference Include="Microsoft.SemanticKernel.Plugins.Core" Version="1.12.0-alpha" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\apphost\cosmoschatgpt.ServiceDefaults\cosmoschatgpt.ServiceDefaults.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="nuget.config">

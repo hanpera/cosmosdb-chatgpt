@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\azuredeploy.json = ..\azuredeploy.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cosmoschatgpt.AppHost", "..\apphost\cosmoschatgpt.AppHost\cosmoschatgpt.AppHost.csproj", "{5239A605-9E3F-4874-A598-39FC94BC27CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cosmoschatgpt.ServiceDefaults", "..\apphost\cosmoschatgpt.ServiceDefaults\cosmoschatgpt.ServiceDefaults.csproj", "{DE3DD4F6-0277-4A01-BFFF-87C23505E67D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AB2C218B-2B3F-46CA-A50F-EF5648363AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB2C218B-2B3F-46CA-A50F-EF5648363AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB2C218B-2B3F-46CA-A50F-EF5648363AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5239A605-9E3F-4874-A598-39FC94BC27CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5239A605-9E3F-4874-A598-39FC94BC27CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5239A605-9E3F-4874-A598-39FC94BC27CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5239A605-9E3F-4874-A598-39FC94BC27CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3DD4F6-0277-4A01-BFFF-87C23505E67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3DD4F6-0277-4A01-BFFF-87C23505E67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3DD4F6-0277-4A01-BFFF-87C23505E67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3DD4F6-0277-4A01-BFFF-87C23505E67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
